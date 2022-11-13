@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.feature {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.feature__box {
+  min-width: 360px;
+  max-width: 450px;
+  margin: 0 45px;
+}
+.feature__title {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(248, 42, 42);
+}
+
+.class-section__group {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.class-section__box {
+  margin: 0 25px;
+}
+.class-section__img {
+  width: 200px;
+  margin: auto;
+  margin-top: 25px;
+}
+.class-section__img img {
+  width: 100%;
+}
+.class-section__list {
+  width: 330px;
+  height: 550px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+.class-section__title {
+  font-size: 2.5rem;
+  color: rgb(5, 143, 7);
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
+}
+.class-section__class-title {
+  color: black;
+  font-weight: 700;
+  margin-top: 40px;
+}
+.class-section__intro {
+  color: rgb(34, 121, 220);
+}
+.class-section__price {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: line-through;
+}
+.class-section__price span.discount {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: red;
+}
+.class-section__button {
+  display: block;
+  color: white;
+  background-color: rgb(196, 7, 7);
+  min-width: 280px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0;
+  margin: auto;
+}
+
+.slogan {
+  background-color: rgb(248, 42, 42);
+  color: white;
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 15px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(36, 27, 87);
+  color: white;
+}
+footer p {
+  margin-bottom: 0;
+}/*# sourceMappingURL=class.css.map */
